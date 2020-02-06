@@ -1,0 +1,35 @@
+{
+  "name": "amzn-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run tsc && node ./src/index.js",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frarillotta/amzn-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frarillotta/amzn-crawler/issues"
+  },
+  "homepage": "https://github.com/frarillotta/amzn-crawler#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "papaparse": "^5.1.1",
+    "puppeteer": "^2.1.1",
+    "puppeteer-extra": "^3.1.9",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/filesystem": "0.0.29",
+    "@types/node": "^13.7.0",
+    "@types/papaparse": "^5.0.3",
+    "@types/puppeteer": "^2.0.0",
+    "tslint": "^6.0.0"
+  }
+}
